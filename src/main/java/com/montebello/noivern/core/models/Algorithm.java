@@ -34,4 +34,6 @@ public class Algorithm {
 
     @Column(unique = true)
     public String ImageUrl;
+
+    public byte[] ImageContent;
 }
